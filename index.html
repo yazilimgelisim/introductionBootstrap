@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space</title>
+    <meta name="author" content="Muhammet Çelik">
+    <meta name="description" content="The wide world about space">
+    <meta name="keywords" content="space, planet, starts, moon, sun, world, mars">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/logo.png">
+</head>
+
+<body id="body">
+    <!--?Navbar Start  -->
+    <nav class="navbar navbar-expand-md navbar-dark position-fixed top-0 start-0 w-100 z-3" id="navbar">
+        <div class="container">
+            <a href="#body" class="navbar-brand fw-bold text-white">Space</a>
+            <button type="button" class="navbar-toggler z-3" data-bs-toggle="offcanvas" data-bs-target="#nav"
+                aria-controls="nav" aria-expanded="false" aria-label="menüyü aç / kapa butonu">
+                <span class="navbar-toggler-icon text-white"></span>
+            </button>
+
+
+            <div class="offcanvas offcanvas-end" id="nav" tabindex="-1" aria-labelledby="canvasLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="canvasLabel">
+                        Page Categories
+                    </h5>
+
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Kapat"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-0 ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#details" class="nav-link special">Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#photos" class="nav-link special">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link special">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link special">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--? Navbar end -->
+
+
+    <!--? Header Carousel Start-->
+    <div class="carousel slide carousel-fade z-0" id="mySlide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mySlide" data-bs-slide-to="0" class="active" aria-current="true">
+                </button>
+                <button type="button" data-bs-target="#mySlide" data-bs-slide-to="1">
+                </button>
+                <button type="button" data-bs-target="#mySlide" data-bs-slide-to="2">
+                </button>
+                <button type="button" data-bs-target="#mySlide" data-bs-slide-to="3">
+                </button>
+            </div>
+            <div class="carousel-item active">
+                <img src="img/carousel/1.jpg" alt="Blue Space" class="img-fluid d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel/2.jpg" alt="Dream" class="img-fluid d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel/3.jpg" alt="Space Horizon" class="img-fluid d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel/4.jpg" alt="" class="img-fluid d-block w-100">
+            </div>
+        </div>
+
+        <div class="text">
+            <h5>
+                <span>T</span>
+                <span>o The Bottom Of Space</span>
+            </h5>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing.
+            </p>
+        </div>
+    </div>
+    <!--? Header Carousel End -->
+
+
+
+
+    <!--? details Starting  -->
+    <section class="mySection bg-light" id="details">
+        <div class="py-5"></div>
+        <div class="title text-center ">
+            <h4 class="s-head">Details</h4>
+            <h5 class="s-subhead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, sequi!</h5>
+        </div>
+
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-md-3">
+
+                <div class="col d-flex flex-column align-items-center mt-1 my-5 scrollAnimation">
+                    <a href="#servis1" data-bs-toggle="collapse" role="button" aria-expanded="false"
+                        aria-label="Yazıları göster / kapat butonu" class="icon mb-2">
+                        <i class="bi bi-star-fill"></i>
+                    </a>
+                    <span>Stars</span>
+                    <p class="collapse text-muted text-center" id="servis1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt adipisci pariatur et neque
+                        eveniet ratione magnam dolores perspiciatis. Corrupti ab sint accusantium nemo quibusdam fugit
+                        veniam sit nobis alias tempora!
+                    </p>
+                </div>
+
+
+
+                <div class="col d-flex flex-column align-items-center mt-1 my-5 scrollAnimation">
+                    <a href="#servis2" data-bs-toggle="collapse" role="button" aria-expanded="false"
+                        aria-label="Yazıları göster / kapat butonu" class="icon mb-2">
+                        <i class="bi bi-moon-fill"></i>
+                    </a>
+                    <span>Moon</span>
+
+                    <p class="collapse text-muted text-center" id="servis2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt adipisci pariatur et neque
+                        eveniet ratione magnam dolores perspiciatis. Corrupti ab sint accusantium nemo quibusdam fugit
+                        veniam sit nobis alias tempora!
+                    </p>
+                </div>
+
+
+
+                <div class="col d-flex flex-column align-items-center mt-1 my-5 scrollAnimation">
+                    <a href="#servis3" data-bs-toggle="collapse" role="button" aria-expanded="false"
+                        aria-label="Yazıları göster / kapat butonu" class="icon mb-2">
+                        <i class="bi bi-rocket"></i>
+                    </a>
+                    <span>Rocket</span>
+
+                    <p class="collapse text-muted text-center" id="servis3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt adipisci pariatur et neque
+                        eveniet ratione magnam dolores perspiciatis. Corrupti ab sint accusantium nemo quibusdam fugit
+                        veniam sit nobis alias tempora!
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!--? details Finished  -->
+
+
+
+
+    <!--? Photos Starting  -->
+    <section class="mySection bg-light" id="photos">
+        <div class="py-4"></div>
+        <div class="title text-center pt-4">
+            <h4 class="s-head">Photos</h4>
+            <h5 class="s-subhead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, sequi!</h5>
+        </div>
+
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-sm-4">
+
+                <div class="col">
+                    <div class="p-area p-5 p-sm-0 scrollAnimation">
+                        <button type="button" data-bs-target="#portModal1" data-bs-toggle="modal" id="triggerModal1">
+                            <img src="img/portfolio/1.jpg" alt="" class="p-img">
+                            <span class="over">
+                                <i class="bi bi-plus-circle"></i>
+                            </span>
+                        </button>
+
+                        <h5 class="p-title">
+                            Walking on the moon
+                        </h5>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="p-area p-5 p-sm-0 scrollAnimation">
+                        <button type="button" data-bs-target="#portModal2" data-bs-toggle="modal" id="triggerModal2">
+                            <img src="img/portfolio/2.jpg" alt="" class="p-img">
+                            <span class="over">
+                                <i class="bi bi-plus-circle"></i>
+                            </span>
+                        </button>
+                        <h5 class="p-title">
+                            Spacecraft
+                        </h5>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="p-area p-5 p-sm-0 scrollAnimation">
+                        <button type="button" data-bs-target="#portModal3" data-bs-toggle="modal" id="triggerModal3">
+                            <img src="img/portfolio/3.jpg" alt="" class="p-img">
+                            <span class="over">
+                                <i class="bi bi-plus-circle"></i>
+                            </span>
+                        </button>
+                        <h5 class="p-title">
+                            Mars Photo
+                        </h5>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="p-area p-5 p-sm-0 scrollAnimation">
+                        <button type="button" data-bs-target="#portModal4" data-bs-toggle="modal" id="triggerModal4">
+                            <img src="img/portfolio/4.jpg" alt="" class="p-img">
+                            <span class="over">
+                                <i class="bi bi-plus-circle"></i>
+                            </span>
+                        </button>
+                        <h5 class="p-title">
+                            Moon Photo
+                        </h5>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="p-area p-5 p-sm-0 scrollAnimation">
+                        <button type="button" data-bs-target="#portModal5" data-bs-toggle="modal" id="triggerModal5">
+                            <img src="img/portfolio/5.jpg" alt="" class="p-img">
+                            <span class="over">
+                                <i class="bi bi-plus-circle"></i>
+                            </span>
+                        </button>
+                        <h5 class="p-title">
+                            Preparation for space
+                        </h5>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="p-area p-5 p-sm-0 scrollAnimation">
+                        <button type="button" data-bs-target="#portModal6" data-bs-toggle="modal" id="triggerModal6">
+                            <img src="img/portfolio/6.jpg" alt="" class="p-img">
+                            <span class="over">
+                                <i class="bi bi-plus-circle"></i>
+                            </span>
+                        </button>
+                        <h5 class="p-title">
+                            Travel to space
+                        </h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--? Photos Ending  -->
+
+
+
+    <!--! Modal Group Start  -->
+    <!--? Modal Start 1 -->
+    <div class="modal fade" tabindex="-1" id="portModal1" aria-hidden="true" aria-labelledby="triggerModal1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Walking on the moon
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat">
+
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="img/portfolio/1.jpg" alt="" class="img-fluid">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit saepe, aut vero asperiores,
+                    rerum labore dolore numquam mollitia nisi, necessitatibus culpa molestias libero laboriosam
+                    inventore alias nostrum officiis ea.
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--? Modal end 1 -->
+
+
+    <!--? Modal Start 2 -->
+    <div class="modal fade" tabindex="-1" id="portModal2" aria-hidden="true" aria-labelledby="triggerModal2">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Spacecraft
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat">
+
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="img/portfolio/2.jpg" alt="" class="img-fluid">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit saepe, aut vero asperiores,
+                    rerum labore dolore numquam mollitia nisi, necessitatibus culpa molestias libero laboriosam
+                    inventore alias nostrum officiis ea.
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--? Modal end 2 -->
+
+
+    <!--? Modal Start 3 -->
+    <div class="modal fade" tabindex="-1" id="portModal3" aria-hidden="true" aria-labelledby="triggerModal3">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Mars Photo
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat">
+
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="img/portfolio/3.jpg" alt="" class="img-fluid">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit saepe, aut vero asperiores,
+                    rerum labore dolore numquam mollitia nisi, necessitatibus culpa molestias libero laboriosam
+                    inventore alias nostrum officiis ea.
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--? Modal end 3 -->
+
+
+    <!--? Modal Start 4 -->
+    <div class="modal fade" tabindex="-1" id="portModal4" aria-hidden="true" aria-labelledby="triggerModal4">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Moon Photo
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat">
+
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="img/portfolio/4.jpg" alt="" class="img-fluid">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit saepe, aut vero asperiores,
+                    rerum labore dolore numquam mollitia nisi, necessitatibus culpa molestias libero laboriosam
+                    inventore alias nostrum officiis ea.
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--? Modal end 4 -->
+
+
+    <!--? Modal Start 5 -->
+    <div class="modal fade" tabindex="-1" id="portModal5" aria-hidden="true" aria-labelledby="triggerModal5">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Preparation for space
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat">
+
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="img/portfolio/5.jpg" alt="" class="img-fluid">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit saepe, aut vero asperiores,
+                    rerum labore dolore numquam mollitia nisi, necessitatibus culpa molestias libero laboriosam
+                    inventore alias nostrum officiis ea.
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--? Modal end 5 -->
+
+
+    <!--? Modal Start 6 -->
+    <div class="modal fade" tabindex="-1" id="portModal6" aria-hidden="true" aria-labelledby="triggerModal6">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        Travel to space
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat">
+
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="img/portfolio/6.jpg" alt="" class="img-fluid">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit saepe, aut vero asperiores,
+                    rerum labore dolore numquam mollitia nisi, necessitatibus culpa molestias libero laboriosam
+                    inventore alias nostrum officiis ea.
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--? Modal end 6 -->
+    <!--! Modal Group End -->
+
+
+
+
+    <!--? About Start  -->
+    <section class="mySection bg-light" id="about">
+        <div class="py-4"></div>
+        <div class="title text-center pt-4">
+            <h4 class="s-head">About</h4>
+            <h5 class="s-subhead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, sequi!</h5>
+        </div>
+
+        <div class="container">
+            <div class="timeline">
+
+                <div class="content">
+                    <div class="align scrollAnimation">
+                        <img class="t-image" src="img/about/1.jpg" alt="">
+                        <div class="t-body">
+                            <h5 class="t-head">Emergence Of The Idea</h5>
+                            <p class="t-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe voluptatem non
+                                doloremque, quasi obcaecati pariatur mollitia quisquam accusantium iure ipsam rem fuga
+                                magnam illum deserunt maiores atque laborum autem nobis!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="content">
+                    <div class="align scrollAnimation">
+                        <img class="t-image" src="img/about/2.jpg" alt="">
+                        <div class="t-body">
+                            <h5 class="t-head">Establishment</h5>
+                            <p class="t-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe voluptatem non
+                                doloremque, quasi obcaecati pariatur mollitia quisquam accusantium iure ipsam rem fuga
+                                magnam illum deserunt maiores atque laborum autem nobis!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="content">
+                    <div class="align scrollAnimation">
+                        <img class="t-image" src="img/about/3.jpg" alt="">
+                        <div class="t-body">
+                            <h5 class="t-head">Growth</h5>
+                            <p class="t-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe voluptatem non
+                                doloremque, quasi obcaecati pariatur mollitia quisquam accusantium iure ipsam rem fuga
+                                magnam illum deserunt maiores atque laborum autem nobis!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="content">
+                    <div class="align scrollAnimation">
+                        <div class="t-image">
+                            Do you want to join us?
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!--? About End  -->
+
+
+
+    <!--? Contact Start -->
+    <section class="mySection" id="contact">
+        <div class="py-4"></div>
+        <div class="title text-center pt-4">
+            <h4 class="s-head">Contact</h4>
+            <h5 class="s-subhead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, sequi!</h5>
+        </div>
+
+
+        <div class="container">
+            <form action="/" method="get" novalidate id="myForm">
+                <div class="row d-flex justify-content-center">
+
+                    <div class="col-11 my-2">
+                        <div class="row">
+                            <div class="col-5 col-md-2 py-2 ps-1">
+                                <label for="name" class="form-label  m-0">
+                                    Your Name:
+                                </label>
+                            </div>
+                            <div class="col-12 col-md-10">
+                                <input type="text" class="form-control" id="name" name="name" required maxlength="30">
+                                <div class="invalid-feedback" id="ErrName"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-11 my-2">
+                        <div class="row">
+                            <div class="col-5 col-md-2 py-2 ps-1">
+                                <label for="email" class="form-label m-0">
+                                    E-mail:
+                                </label>
+                            </div>
+                            <div class="col-12 col-md-10">
+                                <input type="email" class="form-control" id="email" name="email" required maxlength="40">
+                                <div class="invalid-feedback" id="ErrEmail"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-11 my-2">
+                        <div class="row">
+                            <div class="col-5 col-md-2 py-2 ps-1">
+                                <label for="phone" class="form-label m-0">
+                                    Phone:
+                                </label>
+                            </div>
+                            <div class="col-12 col-md-10">
+                                <input type="number" class="form-control" id="phone" name="phone" required maxlength="15">
+                                <div class="invalid-feedback" id="ErrPhone"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-11 my-2 p-0">
+                        <textarea class="form-control" name="message" id="message" placeholder="Your Message:" style="height: 100px;" maxlength="300"></textarea>
+                        <div class="invalid-feedback" id="ErrMessage"></div>
+                    </div>
+
+                    <div class="col-11 my-2 p-0 d-flex justify-content-between">
+                        <div id="counter" class="px-1">
+                            0 / 300
+                        </div>
+                        <button type="submit" class="btn btn-success py-2 px-4">
+                            Send
+                        </button>
+                    </div>
+
+
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--? Concact End  -->
+
+
+
+    <!--? Footer Start  -->
+    <footer class="container-fluid bg-dark py-3">
+        <div class="row d-flex justify-content-center">
+            <div class="col-11" style="max-width: 1200px;">
+
+                <div class="row row-cols-2">
+                    <div class="col text-white text-center fon">
+                        Copyright &copy; New Blog 2023
+                    </div>
+                    <div class="col text-center fon">
+                        <a href="#body" class="text-decoration-none text-white fst-italic">
+                            Confidentiality Agreement
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row py-2 my-2">
+                    <div class="col text-center">
+                        <span>
+                            <i class="bi bi-whatsapp mx-1"></i>
+                        </span>
+
+                        <span>
+                            <i class="bi bi-facebook mx-1"></i>
+                        </span>
+
+                        <span>
+                            <i class="bi bi-instagram mx-1"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-end">
+            <small class="fst-italic" style="color: rgb(255, 244, 206);">
+                <small>
+                    By Muhammet Çelik
+                </small>
+            </small>
+        </div>
+    </footer>
+    <!--? Footer End  -->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
